@@ -3,14 +3,22 @@
     --text: whitesmoke;
     --col1:rgb(25, 113, 134);
     --col2:rgb(18, 76, 90);
+    --colblack: black;
 }
 
 *{
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: var(--text);
+    font-family: sans-serif;
 }
+
+body{
+  background: url(sources/Grupo-3044-scaled.jpg);
+  background-size: cover;
+}
+
+
 
 #WelcomeText{
     gap: 50px;
@@ -21,8 +29,20 @@
     background: url(sources/cerca-veterinario-cuidando-perro.jpg);
     height: 300px;
     background-size: cover;
+    background-repeat: no-repeat;
     color: var(--text);
+    text-shadow: 0 0 10px var(--col1);
+    margin: 1%;
+    border-radius: 20px;
 }
+
+#WelcomeText p{
+  width: 20%;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
 
 h1{
     padding-top: 50px;
@@ -31,9 +51,11 @@ h1{
 header{
     top: 0;
     position: sticky;
+    margin: 4px;
 }
 
 ul {
+  border-radius: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,7 +64,7 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-  }
+}
   
 
 li {
@@ -59,13 +81,36 @@ li a {
 
 li a:hover {
     background-color: var(--col2);
-    color: #333;
-    box-shadow: 7px 10px ;
-  }
+    color: var(--text);
+    box-shadow: 5px 5px black;
+}
 
 p{
     padding-top: 20px;
     padding-left: 20px;
 }
 
+#firsText{
+  background-color: rgba(220, 245, 241, 0.595);
+  margin: 1%;
+  border-radius: 20px;
+}
+
+
+
+#firsText h2{
+  color: var(--colblack);
+  padding: 2%;
+  text-decoration: 3px underline var(--col2);
+}
+
+
+
+#firsText img{
+  height: 300px;
+  width: 300px;
+  filter: drop-shadow( 0 0 20px);
+  padding-left: 200px;
+  padding-bottom: ;
+}
 
