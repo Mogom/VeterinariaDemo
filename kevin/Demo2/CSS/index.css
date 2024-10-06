@@ -20,18 +20,25 @@
 
 
 header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
     background-color: var(--col4);
 }
 
 .header-call{
+    width: 100%;
     text-align: center;
     background-color: var(--col5);
-    height: 40px;
-    font-size: 30px;
+    height: 60px;
+    font-size: 50px;
     color: var(--col1);
 }
 
 .header-content{
+    margin-top: 75px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,18 +53,18 @@ header{
 }
 
 header nav{
-    position: sticky;
-    top: 0;
+    width: 100%;
 }
 
 .main-bar{
-    position: sticky;
+    position: fixed ;
     top: 0;
     width: 100%;
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
     background-color: var(--col5)
 }
 
@@ -115,6 +122,8 @@ header nav{
 .main-bar__item:hover > p{
     transform: scale(1.4);
 }
+
+
 
 main{
     height: 3000px;
