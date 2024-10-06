@@ -18,6 +18,8 @@
     font-family: sans-serif;
 }
 
+/* Header */
+
 
 header{
     display: flex;
@@ -123,11 +125,26 @@ header nav{
     transform: scale(1.4);
 }
 
+/* Header */
+
+
+/* Main */
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #80CED7;
+}
 
 
 main{
     height: 3000px;
 }
+
+
+
+/* Main */
 
 
 
