@@ -94,6 +94,8 @@ p{
   background-color: rgba(220, 245, 241, 0.595);
   margin: 1%;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -110,7 +112,7 @@ p{
   height: 300px;
   width: 300px;
   filter: drop-shadow( 0 0 20px);
-  padding-left: 200px;
-  padding-bottom: ;
+  position: static;
+  visibility: unset;
 }
 

@@ -1,0 +1,56 @@
+:root{
+    --col1: #CCDBDC ;
+    --col2: #9AD1D4 ;
+    --col3: #80CED7 ;
+    --col4: #007EA7 ;
+    --col5: #003249 ;
+    --white: #fff;
+}
+
+
+*{
+    transition: .2s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--col3);
+}
+
+
+header{
+    height: 200px;
+}
+
+
+.main-bar{
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    display: flex;
+    background-color: var(--col5)
+}
+
+
+.main-bar__item{
+    padding: 20px;
+}
+
+
+.main-bar__item:hover{
+    background-color: var(--col4);
+    cursor: pointer;
+}
+
+
+.main-bar__item a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+
