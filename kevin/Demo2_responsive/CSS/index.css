@@ -227,12 +227,29 @@ main{
 }
 
 
+@media only screen and (max-width: 800px) {
+    .first-section__main-div {
+      flex-direction: column;
+      gap: 20px;
+    }
+}
+
+
+
 .second-section{
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
     width: 90%;
 }
+
+@media only screen and (max-width: 800px){
+    .second-section{
+        flex-direction: column;
+    }
+}
+    
+
 
 .second-section__item{
     display: flex;
@@ -344,8 +361,8 @@ main{
 }
 
 .four-section div p img{
-    height: 200px;
-    width: 200px;
+    height: 30vh;
+    width: 20vw;
 }
 
 
@@ -377,10 +394,20 @@ main{
     border-radius: 20px;
 }
 
+#four-section-aside{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 1%;
+    width: 80%;
+    background-color: var(--col3);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 
 .five-section__item img{
     height: 300px;
-    width: 300px;
+    width: 30vw;
 }
 
 
