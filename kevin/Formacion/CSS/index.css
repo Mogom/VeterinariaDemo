@@ -1,0 +1,56 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    transition: .2s linear;
+}
+
+.contenedor-texto{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid blueviolet;
+    height: 80vh;
+    width: 50vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    background: url(https://www.epitech-it.es/wp-content/uploads/2022/06/historia-de-la-programacion-1.jpg);
+    color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.boton-a{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boton-b{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.boton-c{
+    font-size: 2rem;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+button{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+button:hover{
+    transform: scale(1.10);
+}
+
+button:active{
+    transform: scale(1);
+}
