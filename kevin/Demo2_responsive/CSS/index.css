@@ -424,6 +424,12 @@ footer{
     gap: 100px;
 }
 
+@media screen and (max-width:600px){
+    footer{
+        flex-direction:column;
+    }
+}
+
 .main-footer{
     padding: 2% 0;
     display: flex;
