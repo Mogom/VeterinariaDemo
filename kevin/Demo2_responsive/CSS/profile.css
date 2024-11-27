@@ -166,3 +166,65 @@ main{
     transform: scale(1.2);
 }
 
+.main-mascotas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--col6);
+    width: 70%;
+}
+
+.mascotas-titulo h2{
+    margin-top: 10px;
+    font-size: 3rem;
+    text-shadow: 0 0 10px var(--white);
+}
+
+.mascotas-usuario{
+    margin-top: 20px;
+    height: 90%;
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px 25px;
+}
+
+.mascota{
+    background-color: #003249;
+    list-style-position: inside;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 10px 10px;
+}
+
+.mascota-foto{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px 0px 0 10px;
+}
+
+.mascota-datos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0 0 10px;
+}
+
+
+.mascota-boton{
+    margin:auto;
+    background-color: var(--col2);
+    height: 40px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.mascota-boton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
